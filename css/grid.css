@@ -1,0 +1,51 @@
+@media (max-width: 9000px) {
+    #event li {
+        width:70%;
+        padding-left:15%;
+    }
+    #item li {
+        width:20%;
+    }
+    #shop li {
+        width:33.330%;
+    }
+
+    #aboutcontext p {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    #event li {
+        width:70%;
+		padding-left:15%;
+    }
+    #item li {
+        width:33.33%;
+    }
+    #shop li {
+        width:33.330%;
+    }
+    #aboutcontext p {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media (max-width: 550px) {
+    #event li {
+        width:100%;
+        padding:0;
+    }
+    #item li {
+        width:100%;
+    }
+    #shop li {
+        width:100%;
+    }
+    #aboutcontext p {
+        padding-left:0;
+        padding-right:0;
+    }
+}

@@ -1,0 +1,533 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  margin-top: .1px;
+  margin-bottom: 1.5rem;
+  padding-top: 1.4rem;
+  text-align: center;
+  letter-spacing: .4rem;
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  letter-spacing: .4rem;
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: .85rem;
+  color: black;
+  text-decoration: none;
+  margin-top: .25rem;
+  margin-bottom: .50rem;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    padding: 1.5em;
+    font-size: .55rem;
+    letter-spacing: .1rem;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+/******************** Style the links inside the top navigation bar *************************/
+.account {
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  font-size: .75rem;
+  letter-spacing: .1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.account a:hover {
+  color: #e0e0e0;
+  font-weight: bold;
+  transition:0.2s ease-out;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.topnav a {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.1rem;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+/****************************** Style the Homepage ****************************/
+#mainbg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#event {
+    max-width:100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#event p {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.event-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.event-img {
+    display:block;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#event li:hover .event-img {
+    transform:scale(1.05);
+    opacity:0.6;
+    transition:0.5s ease-out;
+}
+        
+#event li:hover .event-overlay {
+    opacity:0.8;
+}
+
+.event-text {
+  display:block;
+  padding:0 30px;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+  color:#333;
+  font-size:20px;
+  font-weight:bolder;
+  top:48%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+.event-date {
+  display:block;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Open Sans', sans-serif;
+  color:#333;
+  font-size:18px;
+  font-weight:bolder;
+  top:54%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+#event li:hover .event-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+#event li:hover .event-date {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+#item {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; 
+    list-style:none;
+}
+
+#item li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 33.33%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.item-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+        
+/* If have the image layer */
+.item-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#item li:hover .item-img {
+    transform:scale(1.05);
+    opacity:0.6;
+    transition:0.5s ease-out;
+}
+        
+#item li:hover .item-overlay {
+    opacity:0.8;
+}
+
+.item-text {
+  display:block;
+  padding:0 30px;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+  color:#333;
+  font-size:14px;
+  font-weight:bolder;
+  top:45%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+.item-price {
+  display:block;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Open Sans', sans-serif;
+  color:#333;
+  font-size:14px;
+  font-weight:bolder;
+  top:55%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+#item li:hover .item-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+#item li:hover .item-price {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+/****************************** Style the About Page ****************************/
+
+#aboutcontext p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75rem;
+  text-align: left;
+  letter-spacing: .1rem;
+  color: black;
+  text-decoration: none;
+}
+
+#team {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; 
+    list-style:none;
+}
+
+#team li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 33.33%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.team-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+        
+/* If have the image layer */
+.team-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#team li:hover .team-img {
+    transform:scale(1.05);
+    opacity:0.6;
+    transition:0.5s ease-out;
+}
+        
+#team li:hover .team-overlay {
+    opacity:0.8;
+}
+
+.team-text {
+  display:block;
+  padding:0 30px;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+  color:#333;
+  font-size:18px;
+  font-weight:bolder;
+  top:45%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+#team li:hover .team-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+/****************************** Style the Shop Page ****************************/
+
+#shop {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; 
+    list-style:none;
+}
+
+#shop li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width: 33.33%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.shop-cell {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+        
+/* If have the image layer */
+.shop-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#shop li:hover .shop-img {
+    transform:scale(1.05);
+    opacity:0.6;
+    transition:0.5s ease-out;
+}
+        
+#shop li:hover .shop-overlay {
+    opacity:0.8;
+}
+
+.shop-text {
+  display:block;
+  padding:0 30px;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+  color:#333;
+  font-size:14px;
+  font-weight:bolder;
+  top:45%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+.shop-price {
+  display:block;
+  box-sizing:border-box;
+  position:absolute;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-family:'Open Sans', sans-serif;
+  color:#333;
+  font-size:14px;
+  font-weight:bolder;
+  top:55%;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);
+  transition:all .3s;
+}
+
+#shop li:hover .shop-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+#shop li:hover .shop-price {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+/****************************** Style the Shop Page ****************************/
+#office p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#store p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+/****************************** Style the Account Page ****************************/
+.login p {
+  text-align: center;
+}
+
+.ID {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.IDinput {
+  margin-left: 10px;
+  width: 210px;
+}
+
+.PW {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.PWinput {
+  margin-left: 52px;
+  width: 210px;
+}
+
+.loginbutton {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 8px 32px;
+  margin-top: 0.5rem;
+  color: #FFF;
+  background-color: #333;
+  letter-spacing: .1rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.loginbutton:hover, .button-nav:focus {
+  background-color: #abacad;
+}
