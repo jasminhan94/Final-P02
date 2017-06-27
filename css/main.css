@@ -63,6 +63,16 @@ footer {
     text-align: center;
 }
 
+.citations {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .55rem;
+    letter-spacing: .1rem;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
 /******************** Style the links inside the top navigation bar *************************/
 .account {
   font-family: 'Open Sans', sans-serif;
@@ -494,7 +504,7 @@ footer {
 }
 
 .IDinput {
-  margin-left: 10px;
+  margin-left: 20px;
   width: 210px;
 }
 
@@ -507,8 +517,50 @@ footer {
 }
 
 .PWinput {
-  margin-left: 52px;
+  margin-left: 10px;
   width: 210px;
+}
+
+.ADDRESS {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.ADDRESSinput {
+  margin-right: 10px;
+  width: 210px;
+}
+
+
+.CITY {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  letter-spacing: .4rem;
+  margin-right: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.CITYinput {
+  margin-right: 10px;
+  margin-right: 5px;
+  width: 100px;
+}
+
+.STATE {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.STATEinput {
+  padding-left: 0px;
+  width: 50px;
 }
 
 .loginbutton {
