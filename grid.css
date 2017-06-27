@@ -1,0 +1,17 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	
+}
+
+.grid-col-2of2{
+	width: 100%;
+}
+
+
+}
+
