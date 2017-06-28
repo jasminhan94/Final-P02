@@ -56,6 +56,17 @@ h5 {
   text-decoration: none;
 }
 
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+
+
 a {
   text-decoration: none;
   color: #333;
@@ -396,6 +407,7 @@ footer {
     float: left;
 }
 
+
 .artist h5 p{
   margin-left: 50px;
 }
@@ -656,7 +668,6 @@ footer {
   background-color: #abacad;
 }
 
-<<<<<<< HEAD
 #artist{
     background-position: center;
     background-repeat: no-repeat;
@@ -675,16 +686,89 @@ footer {
   color: black;
   text-decoration: none;
 }
-.eventpara{
-    font-family: 'Open Sans', sans-serif;
-  font-size: .8rem;
+
+.eventheader h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
   text-align: center;
   letter-spacing: .2rem;
   color: black;
   text-decoration: none;
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
 }
-=======
->>>>>>> master
+
+
+/* STRUCTURE */
+
+#content {
+  width: 290px;
+  float: left;
+  padding: 5px 15px;
+  margin-left: 9em;
+  text-align: center;
+
+}
+
+#middle {
+  width: 294px; /* Account for margins + border values */
+  float: left;
+  padding: 5px 15px;
+  margin: 0px 5px 5px 5px;
+  text-align: center;
+}
+
+#sidebar {
+  width: 270px;
+  padding: 5px 15px;
+  float: left;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 980px) {
+  
+  #content {
+    width: 41%;
+    padding: 1% 4%;
+    float: right;
+    text-align: center;
+  }
+  #middle {
+    width: 41%;
+    padding: 1% 4%;
+    margin: 0px 0px 5px 5px;
+    float: right;
+    text-align: center;
+  }
+  
+  #sidebar {
+    clear: both;
+    padding: 1% 4%;
+    width: auto;
+    float: right;
+    text-align: center;
+  }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+  #content {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    text-align: center;
+  }
+  
+  #middle {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    text-align: center;
+  }
+  
+  #sidebar {
+    width: auto;
+    float: none;
+    text-align: center;
+  }
+}
