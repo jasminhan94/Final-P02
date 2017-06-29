@@ -96,17 +96,28 @@ footer {
 .account {
   font-family: 'Open Sans', sans-serif;
   text-align: right;
-  font-size: .75rem;
+  font-size: .8rem;
   letter-spacing: .1rem;
   color: black;
   text-decoration: none;
+  position: relative;
+}
+
+.account a{
+  float: right;
+  padding-right: 1em;
 }
 
 .account a:hover {
   color: #e0e0e0;
   font-weight: bold;
   transition:0.2s ease-out;
+  float: right;
+  padding-right: 1em;
 }
+
+
+
 
 .topnav {
     background-color: white;
@@ -135,6 +146,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#mainbg img{
+    height:auto; 
+    width:100%;
 }
 
 #event {
@@ -595,7 +611,7 @@ footer {
   text-decoration: none;
 }
 
-.IDinput {
+.IDinput{
   margin-left: 20px;
   width: 210px;
 }
@@ -665,7 +681,14 @@ footer {
 .STATEinput {
   padding-left: 0px;
   width: 50px;
+  height:20px;
+  padding: 16px 20px;
+  border: 0px solid #dddddd;
+  border-radius: 0px;
+  border-width: 0.6px;
+  background-color: white;
 }
+
 
 .COUNTRY {
   font-family: 'Open Sans', sans-serif;
@@ -724,6 +747,8 @@ footer {
 .orderbutton:hover, .button-nav:focus {
   background-color: #abacad;
 }
+
+
 
 #artist{
     background-position: center;
