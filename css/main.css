@@ -582,34 +582,24 @@ footer {
 }
 
 /****************************** Style the Item Page ****************************/
-
 #shop-item {
-  margin:0;
-  padding:0;
-  list-style:none
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.dropdown  {
-    display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
-    vertical-align:middle;
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-}
-
-.dropdown img {
-    display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
+#shop-item img{
+    height:auto; 
 }
 
 .dropdown {
-    margin:0 auto; /*center aligned*/
-    padding:0;
-    font-size:0; 
-    list-style:none;
     position: relative;
     display: inline-block;
+    width: 25%;
+}
+
+.dropdown img{
+    width: 50%;
 }
 
 .dropdown-content {
@@ -617,14 +607,87 @@ footer {
     position: absolute;
     background-color: #f9f9f9;
     z-index: 1;
+    width: 410%;
+}
+
+.dropdown-content img{
+    width: 100%;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.desc {
-    text-align: center;
+#iteminfo li {
+  list-style: none;
+  text-align: left;
+  margin: none;
+}
+
+#iteminfo {
+  float: left;
+  text-align: center;
+}
+
+#iteminfo h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.iteminfo p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  float: left;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.cartbutton {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 8px 32px;
+  margin-top: 0.5rem;
+  color: #FFF;
+  background-color: #333;
+  letter-spacing: .1rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.cartbutton:hover, .button-nav:focus {
+  background-color: #abacad;
+}
+
+.paymentbutton {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  padding: 8px 32px;
+  margin-top: 0.5rem;
+  color: #FFF;
+  background-color: #333;
+  letter-spacing: .1rem;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.paymentbutton:hover, .button-nav:focus {
+  background-color: #abacad;
 }
 
 /****************************** Style the Contact Page ****************************/
