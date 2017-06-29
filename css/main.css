@@ -90,6 +90,7 @@ footer {
     background-color: black;
     clear: left;
     text-align: center;
+    position: relative;
 }
 
 .citations {
@@ -546,6 +547,22 @@ footer {
 #shop li:hover .shop-price {
     transform:translateY(0px);
     opacity:0.9;
+}
+
+/****************************** Style the Item Page ****************************/
+
+#shop-item {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#dropdown {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; 
+    list-style:none;
 }
 
 /****************************** Style the Contact Page ****************************/

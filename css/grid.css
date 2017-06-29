@@ -67,7 +67,12 @@
     .artist img{
         width:50%
     }
+    #shop-item {
+        width:45%;
+    }
     .dropdown {
+        width:15%;
+        height:auto;
         position: relative;
         display: inline-block;
     }
@@ -75,7 +80,6 @@
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
@@ -157,7 +161,11 @@
     .artist img{
         width:50%
     }
+    #shop-item {
+        width:100%;
+    }
     .dropdown {
+        width: 15%;
         position: relative;
         display: inline-block;
     }
@@ -245,7 +253,11 @@
     .artist img{
         width:100%
     }
+    #shop-item {
+        width:100%;
+    }
     .dropdown {
+        width:100%;
         position: relative;
         display: inline-block;
     }
