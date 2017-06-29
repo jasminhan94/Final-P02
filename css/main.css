@@ -554,15 +554,45 @@ footer {
 #shop-item {
   margin:0;
   padding:0;
-  list-style:none;
+  list-style:none
 }
 
-#dropdown {
-    max-width:100%;
+.dropdown  {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.dropdown img {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+}
+
+.dropdown {
     margin:0 auto; /*center aligned*/
     padding:0;
     font-size:0; 
     list-style:none;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    text-align: center;
 }
 
 /****************************** Style the Contact Page ****************************/

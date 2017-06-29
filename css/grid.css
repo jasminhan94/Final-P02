@@ -59,7 +59,6 @@
     #shop li {
         width:33.330%;
     }
-
     #aboutcontext p {
         padding-left: 25%;
         padding-right: 25%;
@@ -68,28 +67,14 @@
         width:50%
     }
     #shop-item {
-        width:45%;
+        width:40%;
     }
-    .dropdown {
-        width:15%;
-        height:auto;
-        position: relative;
-        display: inline-block;
+    .dropdown  {
+        width: 9.8%;
     }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+    .dropdown img {
+        width: 100%;
     }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .desc {
-        padding: 15px;
-        text-align: center;
-    }   
 }
 
 @media (max-width: 750px) {
@@ -165,25 +150,11 @@
         width:100%;
     }
     .dropdown {
-        width: 15%;
-        position: relative;
-        display: inline-block;
+        width: 24.4%;
     }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .desc {
-        padding: 15px;
-        text-align: center;
-    }   
+    .dropdown img {
+        width: 100%;
+    }  
 }
 
 @media (max-width: 600px) {
@@ -257,24 +228,10 @@
         width:100%;
     }
     .dropdown {
-        width:100%;
-        position: relative;
-        display: inline-block;
+        width: 24.1%;
     }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .desc {
-        padding: 15px;
-        text-align: center;
-    }   
+    .dropdown img {
+        width: 100%;
+    } 
 }
 
