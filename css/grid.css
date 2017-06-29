@@ -1,7 +1,14 @@
 @media (max-width: 9000px) {
     #event li {
-        width:70%;
+        width:80%;
         padding-left:15%;
+    }
+    #eventdetail li {
+        width:100%;
+    }
+    #event-description p {
+        padding-left: 15%;
+        padding-right: 15%;
     }
     #item li {
         width:20%;
@@ -17,12 +24,20 @@
     .artist img{
         width:50%
     }
+
 }
 
 @media (max-width: 750px) {
     #event li {
-        width:70%;
-		padding-left:15%;
+        width:80%;
+		padding-left:12%;
+    }
+    #eventdetail li {
+        width:100%;
+    }
+    #event-description p {
+        padding-left: 15%;
+        padding-right: 15%;
     }
     #item li {
         width:33.33%;
@@ -43,6 +58,14 @@
     #event li {
         width:100%;
         padding:0;
+    }
+    #eventdetail li {
+        width:100%;
+        padding-left:0;
+    }
+    #event-description p {
+        padding-left: 0;
+        padding-right: 0;
     }
     #item li {
         width:100%;

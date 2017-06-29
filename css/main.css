@@ -19,7 +19,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   margin-top: 6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   text-align: center;
   letter-spacing: .4rem;
   color: black;
@@ -38,7 +38,7 @@ h3 {
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   letter-spacing: .2rem;
@@ -49,8 +49,10 @@ h4 {
 h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   letter-spacing: .2rem;
-  color: #333;
+  color: black;
   text-decoration: none;
 }
 
@@ -62,8 +64,6 @@ h6 {
   color: black;
   text-decoration: none;
 }
-
-
 
 a {
   text-decoration: none;
@@ -400,16 +400,14 @@ footer {
   float: left;
 }
 
-.artistimg {
+.artist img{
     height: auto;
     float: left;
 }
 
+
 .artist h5 p{
   margin-left: 50px;
-
-.artist h5 {
-  padding-top: 5%;
 }
 
 /****************************** Style the Shop Page ****************************/
@@ -506,7 +504,7 @@ footer {
     opacity:0.9;
 }
 
-/****************************** Style the Shop Page ****************************/
+/****************************** Style the Contact Page ****************************/
 #office p {
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
@@ -523,6 +521,65 @@ footer {
   letter-spacing: .2rem;
   color: black;
   text-decoration: none;
+}
+
+/****************************** Style the Event Page ****************************/
+#eventdetail {
+  max-width:100%;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#event-first {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+#event-first p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+#event-middle {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+#event-middle p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+#event-last {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+#event-last p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+#event-description {
+  float: left;
+  text-align: center;
+}
+
+#event-description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  float: left;
+  text-align: left;
 }
 
 /****************************** Style the Account Page ****************************/
@@ -696,82 +753,8 @@ footer {
   text-decoration: none;
 }
 
-
-/* STRUCTURE */
-
-#content {
-  width: 290px;
-  float: left;
-  padding: 5px 15px;
-  margin-left: 9em;
-  text-align: center;
-
-}
-
-#middle {
-  width: 294px; /* Account for margins + border values */
-  float: left;
-  padding: 5px 15px;
-  margin: 0px 5px 5px 5px;
-  text-align: center;
-}
-
-#sidebar {
-  width: 270px;
-  padding: 5px 15px;
-  float: left;
-  text-align: center;
-}
-
-
-@media screen and (max-width: 980px) {
-  
-  #content {
-    width: 41%;
-    padding: 1% 4%;
-    float: right;
-    text-align: center;
-  }
-  #middle {
-    width: 41%;
-    padding: 1% 4%;
-    margin: 0px 0px 5px 5px;
-    float: right;
-    text-align: center;
-  }
-  
-  #sidebar {
-    clear: both;
-    padding: 1% 4%;
-    width: auto;
-    float: right;
-    text-align: center;
-  }
-}
-
 /* for 700px or less */
 @media screen and (max-width: 600px) {
-
-  #content {
-    width: auto;
-    float: none;
-    margin-left: 0px;
-    text-align: center;
-  }
-  
-  #middle {
-    width: auto;
-    float: none;
-    margin-left: 0px;
-    text-align: center;
-  }
-  
-  #sidebar {
-    width: auto;
-    float: none;
-    text-align: center;
-  }
-}
 
 .dropdown {
     position: relative;
