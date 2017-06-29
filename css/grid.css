@@ -59,12 +59,20 @@
     #shop li {
         width:33.330%;
     }
+<<<<<<< HEAD
+=======
+    #team li {
+        width:33.330%;
+    }
+
+>>>>>>> master
     #aboutcontext p {
         padding-left: 25%;
         padding-right: 25%;
     }
     .artist img{
-        width:50%
+        width:50%;
+        margin-right: 6em;
     }
     #shop-item {
         width:40%;
@@ -139,12 +147,15 @@
     #shop li {
         width:33.330%;
     }
+
     #aboutcontext p {
         padding-left: 15%;
         padding-right: 15%;
     }
     .artist img{
-        width:50%
+        width:100%;
+        padding-right:0px;
+        margin-right: 6em;
     }
     #shop-item {
         width:100%;
@@ -217,12 +228,16 @@
     #shop li {
         width:100%;
     }
+
+    #team li {
+        width:100%;
+    }
     #aboutcontext p {
         padding-left:0;
         padding-right:0;
     }
     .artist img{
-        width:100%
+        width:100%;
     }
     #shop-item {
         width:100%;
