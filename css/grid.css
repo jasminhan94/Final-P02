@@ -85,16 +85,10 @@
     .dropdown img {
         width: 100%;
     }
-<<<<<<< Updated upstream
-=======
     .desc {
         padding: 15px;
         text-align: center;
     }   
-
-
->>>>>>> Stashed changes
-}
 
 @media (max-width: 750px) {
     #event li {
@@ -184,10 +178,7 @@
         width: 100%;
     } 
     .dropdown-content {
-<<<<<<< Updated upstream
         width: 0%;
-    }
-=======
         display: none;
         position: absolute;
         background-color: #f9f9f9;
@@ -202,9 +193,6 @@
         padding: 15px;
         text-align: center;
     }   
-
->>>>>>> Stashed changes
-}
 
 @media (max-width: 600px) {
     #event li {
@@ -266,7 +254,6 @@
     #shop li {
         width:100%;
     }
-
     #team li {
         width:100%;
     }
@@ -296,10 +283,7 @@
         width: 100%;
     } 
     .dropdown-content {
-<<<<<<< Updated upstream
         width: 0%;
-    }
-=======
         display: none;
         position: absolute;
         background-color: #f9f9f9;
@@ -314,6 +298,5 @@
         padding: 15px;
         text-align: center;
     }  
->>>>>>> Stashed changes
 }
 
