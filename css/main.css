@@ -183,6 +183,18 @@ footer {
     width:100%;
 }
 
+#mainbgheading {
+    z-index:100;
+    position:absolute;    
+    color:white;
+}
+
+#mainbgtext {
+    z-index:100;
+    position:absolute;    
+    color:white;
+}
+
 #event {
     max-width:100%;
     margin:0;

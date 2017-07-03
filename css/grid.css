@@ -1,4 +1,16 @@
 @media (max-width: 9000px) {
+    #mainbgheading {
+        left:42%;
+        right:16%;
+        bottom:50%;
+        font-size:1.3rem;
+    }
+    #mainbgtext {
+        left:59%;
+        right:5%;
+        bottom:40%;
+        font-size:1rem;
+    }
     #event li {
         padding-left: 20%;
         padding-right: 20%;
@@ -90,7 +102,20 @@
         text-align: center;
     }   
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
+    #mainbgheading {
+        left:48%;
+        right:16%;
+        bottom:62%;
+        font-size:1.1rem;
+        letter-spacing: .2rem;
+    }
+    #mainbgtext {
+        left:60%;
+        right:5%;
+        bottom:55%;
+        font-size:.75rem;
+    }
     #event li {
         padding-left: 20%;
         padding-right: 20%;
@@ -195,6 +220,19 @@
     }   
 
 @media (max-width: 600px) {
+    #mainbgheading {
+        left:50%;
+        right:16%;
+        bottom:68%;
+        font-size:.75rem;
+        letter-spacing: .1rem;
+    }
+    #mainbgtext {
+        left:60%;
+        right:5%;
+        bottom:65%;
+        font-size:.43rem;
+    }
     #event li {
         padding-left: 0;
         padding-right: 0;
