@@ -111,6 +111,16 @@ footer {
     clear: left;
     text-align: center;
     margin-left: 3em;
+    margin-right: 3em;
+}
+
+.github {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .55rem;
+    letter-spacing: .1rem;
+    color: white;
+    clear: left;
+    text-align: center;
 }
 
 
