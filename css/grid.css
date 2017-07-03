@@ -73,6 +73,7 @@
     }
     #shop-item {
         width:100%;
+        align-content: center;
     }
     #shop-item img {
         width:51%;
