@@ -129,8 +129,6 @@ footer {
 .account {
   font-family: 'Open Sans', sans-serif;
   text-align: right;
-  font-size: .8rem;
-  letter-spacing: .1rem;
   color: black;
   text-decoration: none;
   position: relative;
@@ -162,7 +160,6 @@ footer {
     color: #333;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
 }
 
 .topnav a:hover {
@@ -172,6 +169,16 @@ footer {
 }
 
 /****************************** Style the Homepage ****************************/
+#companyname {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: .1px;
+  margin-bottom: 1.5rem;
+  padding-top: 1.7rem;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
 #mainbg{
     background-position: center;
     background-repeat: repeat;
@@ -614,7 +621,7 @@ footer {
     height:auto; 
 }
 
-#iteminfo h4{
+#itemtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   margin-top: 6rem;
@@ -625,7 +632,7 @@ footer {
   text-decoration: none;
 }
 
-#iteminfo li{
+#itemlist {
   list-style: none;
   margin-left: -2rem;
 }
@@ -1084,7 +1091,6 @@ footer {
   padding-right: 1em;
 }
 
-
 .STYLEINPUT{
   font-family: 'Open Sans', sans-serif;
   font-size: .8rem;
@@ -1114,3 +1120,4 @@ footer {
   color: black;
   text-decoration: none;
 }
+
