@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title> Studio Create </title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+  <body>
+  <div class="account">
+    <a href="account.html">LOG IN</a>
+    <a href="create.html">SIGN UP</a>
+  </div>
+
+     <header>
+
+        <a href="index.html"><h1>Studio Create</h1></a>
+
+     </header>
+
+  <!-- Navigation Bar // -->
+  
+  <nav>
+
+  <div class="topnav">
+
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+
+  </div>
+
+  </nav>
+
+  <section>
+
+  <h2>SHIPPING + PAYMENT</h2>
+
+  <form id=payment>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <ol>
+            <li>
+                <label for=firstname>First Name</label>
+                <input id=firstname name=firstname type=text required autofocus />
+            </li>
+            <li>
+                <label for=lastname>Last Name</label>
+                <input id=lastname name=lastname type=text required autofocus />
+            </li>
+            <li>
+                <label for=email>Email Address</label>
+                <input id=email name=email type=email placeholder="example@domain.com" required />
+            </li>
+            <li>
+                <label for=phone>Phone Number</label>
+                <input id=phone name=phone type=tel placeholder="+x.xxx.xxx.xxxx" required />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Shipping Address</legend>
+        <ol>
+            <li>
+                <label for=address>Address1</label>
+                <input id=address name=address type=text required />
+            </li>
+            <li>
+                <label for=address>Address2</label>
+                <input id=address name=address type=text required />
+            </li>
+            <li>
+                <label for=postcode>Postal Code</label>
+                <input id=postcode name=postcode type=text required />
+            </li>
+            <li>
+                <label for=country>Country</label>
+                <input id=country name=country type=text required />
+            </li>
+        </ol>
+    </fieldset>
+    <fieldset>
+        <legend>Card Details</legend>
+        <ol>
+            <li>
+                <p>Card Type</p>
+                <li id=visacard>
+                    <input id=visa name=cardtype type=radio />
+                    <label for=visa>VISA</label>
+                </li>
+                <li id=amexcard>
+                    <input id=amex name=cardtype type=radio />
+                    <label for=amex>AMEX</label>
+                </li>
+                <li id=mastercard>
+                    <input id=mastercard name=cardtype type=radio />
+                    <label for=mastercard>Mastercard</label>
+                </li>
+                <li>
+                   <label for=namecard>Name on Card</label>
+                   <input id=namecard name=namecard type=text required />
+                </li>
+                <li>
+                   <label for=cardnumber>Card Number</label>
+                   <input id=cardnumber name=cardnumber type=text required />
+                </li>
+                <li>
+                   <label for=secure>Security Code</label>
+                   <input id=secure name=secure type=text required />
+                </li>
+            </li>
+        </ol>
+    </fieldset>
+  </form>
+  </section>
+
+
+  <div id="paymentbutton">   
+    <center>
+      <a href="cart.html" class="loginbutton">BACK</a>
+      <a href="confirmation.html" class="loginbutton">CONTINUE</a>
+    </center>
+  </div>
+
+
+
+  <footer>2017ⓒ All Copyrights Reserved. [STUDIO CREATE]. by Heestle<br/><a class="citations" href="citations.html">Citations</a> <a class="styleguide" href="styleguide.html">Styleguide</a> <a class="github" href="https://github.com/jasminhan94/Final-P02">GitHub</a></footer>
+
+  </body>
+
+</html>

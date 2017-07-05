@@ -129,6 +129,11 @@
     .service1-item {
         width: 11.25%;
     }
+    #payment {
+        padding-left: 22%;
+        padding-right: 22%;
+    }
+}
 
 @media (max-width: 1000px) {
     #companyname {
@@ -262,6 +267,11 @@
     .service1-item {
         width: 11.25%;
     }
+    #payment {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
 
 @media (max-width: 600px) {
     #companyname {
@@ -405,5 +415,10 @@
         padding-left: 20%;
         margin-top: 40px;
     }
+    #payment {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 }
 
